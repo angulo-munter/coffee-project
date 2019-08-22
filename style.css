@@ -18,3 +18,26 @@ h1 {
 hr{
     width: 80%;
 }
+main{
+    display: inline-grid;
+    grid-template-columns: 50vh 50vh ;
+    grid-template-rows: 50px ;
+
+}
+
+.container{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+
+}
+
+.one{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
